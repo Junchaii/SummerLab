@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Lab</title>
+    <link rel="icon" href="./img/iceCreamLogo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 字型 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e0fec07f97.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="headerArea">
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+
+            <nav>
+                <ul class="navList">
+                    <li><a class="navLink" href="">最新消息</a></li>
+                    <li><a class="navLink" href="">商品總覽</a></li>
+                    <li><a class="navLink" href="">門市查詢</a></li>
+                    <li><a class="navLink" href="">關於我們</a></li>
+                </ul>
+            </nav>
+
+            <div class="searchArea">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+                    <input type="text" class="search-input" name="" id="" placeholder="搜尋...">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="row">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/photo.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/icecream.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/20220708_095852_3C847.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- content-area -->
+    <div class="content-area">
+        <hr>
+
+        <div class="newsArea">
+            <div class="title">
+                <p>最新消息</p>
+            </div>
+
+            <div class="news-content">
+                <div class="first-item">
+                    <img class="content-img" src="./img/helloween.png" alt="">
+                    <div class="first-text">
+                        <p class="date">2022.10.18</p>
+                        <p class="text">萬聖節活動開跑啦！</p>
+                    </div>
+                </div>
+
+                <div class="second-item">
+                    <img class="content-img" src="./img/menu.png" alt="">
+                    <div class="second-text">
+                        <p class="date">2022.09.16</p>
+                        <p class="text">電子菜單</p>
+                    </div>
+                </div>
+
+                <div class="third-item">
+                    <img class="content-img" src="./img/ice&drink.png" alt="">
+                    <div class="third-text">
+                        <p class="date">2022.08.17</p>
+                        <p class="text">冰淇淋搭配指定飲品
+                        <br>享八折優惠</p>
+                    </div>
+                </div>
+
+                <div class="last-item">
+                    <img class="content-img" src="./img/freeIce.png" alt="">
+                    <div class="last-text">
+                        <p class="date">2022.08.10</p>
+                        <p class="text">捐贈雲端發票
+                        <br>享冰淇淋兌換卷</p>
+                    </div>
+                </div>
+            </div> 
+            
+        </div>
+
+        <hr>
+
+        <div class="productArea">
+            <div class="title">
+                <p>商品情報</p>
+            </div>
+
+            <div class="product-content">
+                <div class="first-product">
+                    <img class="product-img" src="./img/cake.png" alt="">
+                    <div class="first-text">
+                        <p class="product-text">Ice Cream Cake
+                            <br>冰淇淋蛋糕
+                        </p>
+                    </div>
+                </div>
+
+                <div class="second-product">
+                    <img class="product-img" src="./img/drink.png" alt="">
+                    <div class="second-text">
+                        <p class="product-text">Drinks
+                            <br>飲料
+                        </p>
+                    </div>
+                </div>
+
+                <div class="third-product">
+                    <img class="product-img" src="./img/other.png" alt="">
+                    <div class="third-text">
+                        <p class="product-text">Others
+                            <br>限定商品
+                        </p>
+                    </div>
+                </div>
+
+            </div> 
+            
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="left-footer">
+                <p class="upper-text">冰淇淋歡樂服務專線 02-12345678</p>
+                <p class="lower-text">Copyright &copy; Summer Lab All Rights Reserved</p>
+            </div>
+
+            <div class="right-footer">
+                <div class="icon-area">
+                    <div class="icon">
+                        <img class="icon-fb" src="./img/fb.png" alt="">
+                        <img src="./img/ig.png" alt="">
+                    </div>
+                </div>
+                <div class="right-text">
+                    <p class="lower-text">FOLLOW US</p>
+                </div>               
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- 引入bootstrap & jQuery -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jQuery.js"></script>
+
+</body>
+
+</html>

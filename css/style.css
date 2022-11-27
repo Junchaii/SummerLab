@@ -1,0 +1,269 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+    font-family: Noto Sans TC;
+}
+
+/*  header */
+header {
+    width: 100%;
+    background-color: #FFE1A8;
+    height: 100px;
+}
+
+.headerArea {
+    height: 100%;
+    margin: auto 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 224px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center; 
+    width: 450px;  
+    height: 100%;
+}
+
+.navList {
+    display:flex;  /* list並排 */
+    justify-content:space-between;
+}
+
+ul {
+    margin-bottom: 0px !important;
+    width: 100%;
+}
+
+.navList li{
+    list-style: none;  /* li的圓圈符號移除 */
+    font-size: 20px; 
+}
+
+.navLink {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #5C6B73;
+    display: block;
+    text-decoration: none;
+}
+
+.navLink:hover {
+    color: #B26E00;
+}
+
+.searchArea {
+    width: 224px;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.searchIcon {
+    color: #5C6B73;
+    margin-right: 5px;
+}
+
+.searchArea span {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #5C6B73;
+}
+
+.search-input {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: #5C6B73;
+    width: 100px;
+}
+
+.search-input:active {
+    background-color: transparent !important;
+    border: 0 !important;
+}
+
+/* content-area */
+hr{
+    width: 1200px;
+    color: #9C9C9C;
+    margin: 80px auto;
+}
+
+.newsArea, .productArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productArea {
+    margin-bottom: 80px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    color: #5C6B73;
+    font-size: 32px;
+    margin-bottom: 80px;
+}
+
+.news-content, .product-content {
+    display: flex;
+    justify-content: center;
+}
+
+.first-item, .second-item, .third-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.last-item, .third-product{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-img {
+    width: 239px;
+    height: 305px;
+    cursor: pointer;
+}
+
+.content-img:hover {
+    border: 5px solid #F2CC8F;
+    border-radius: 11px;
+}
+
+.first-text, .second-text, .third-text, .last-text {
+    text-align: center;
+    cursor: pointer;
+}
+
+.date {
+    font-weight: bold;
+    color: #F2CC8F;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 3px !important;
+}
+
+.text {
+    font-weight: bold;
+    color: #5C6B73;
+    font-size: 20px;
+    margin-bottom: 0 !important;
+}
+
+.text:hover {
+    color: #F2CC8F;
+}
+
+.first-product, .second-product {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.product-img {
+    width: 340px;
+    height: 418px;
+    cursor: pointer;
+}
+
+.product-img:hover {
+    border: 5px solid #F2CC8F;
+    border-radius: 20px;
+}
+
+.product-text {
+    font-weight: bold;
+    color: #5C6B73;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+    cursor: pointer;
+}
+
+.product-text:hover {
+    color: #F2CC8F;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #FFE1A8;
+    height: 150px;
+}
+
+.footer-content {
+    display: flex;
+    margin: auto 80px;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.left-footer, .right-footer {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+}
+
+.upper-text {
+    font-weight: bold;
+    color: #5C6B73;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.lower-text {
+    font-weight: bold;
+    color: #5C6B73;
+    font-size: 16px;
+    margin-bottom: 0 !important;
+}
+
+.icon-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.icon-fb {
+    margin-right: 10px;
+}
+
+.icon img {
+    width: 23px;
+    height: 23.4px;
+    cursor: pointer;
+}
+
+.right-text {
+    width: 100px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
